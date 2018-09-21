@@ -19,16 +19,28 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "foo.txt",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}]    
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "kubernetes-cluster-running"
   }
 }
