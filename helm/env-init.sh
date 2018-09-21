@@ -1,0 +1,1 @@
+ssh root@host01 "git clone https://github.com/sgandon/katacoda-scenarios.git; mv katacoda-scenarios/kubernetes-helm/assets/ talend; rm -rf katacoda-scenarios; curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash;"
