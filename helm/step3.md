@@ -20,7 +20,7 @@ List all Helm/k8s applications/releases with the following command:
 
 Execute the following command to find out the service port exposed by k8s. This port will be in the range 30000-32767.
 
-`kubectl get --namespace default -o jsonpath='{.spec.ports[0].nodePort}{"\n"}' services nginx-nginx-web`
+`kubectl get --namespace default -o jsonpath='{.spec.ports[0].nodePort}{"\n"}' services nginx-nginx-web`{{execute}}
 
 In the upper side of the terminal you have one tab called `Display 80`. Click on this tab and a new web page will open.
 Under the section "Display a different port" enter the service port found with the previous command and press the button `Display port``. The ngix welcome page will appear. 

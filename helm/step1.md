@@ -10,7 +10,7 @@ Use the following command to install Helm Server:
 
 `helm init`{{execute}}
 
-This might take a few seconds. Tiller is installed as a pod in the k8s cluster. The pod names starts with `tiller-deploy-`. You can see when Tiller is available by monitoring the pods in all namespaces:
+This might take a few seconds. Tiller is installed as a pod in the k8s cluster. The pod names starts with `tiller-deploy-`. You can see when Tiller is available by monitoring the pods in all namespaces. Please pay attention to the column `Ready` which should display `1/1`.
 
 `kubectl get pods --all-namespaces -w`{{execute}}
 
