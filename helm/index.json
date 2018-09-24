@@ -1,5 +1,5 @@
 {
-  "title": "Helm for Kubernetes",
+  "title": "Talend - Helm for Kubernetes (DRAFT)",
   "description": "Use Helm for Kubernetes to easily deploy applications on your Kubernetes cluster",
   "difficulty": "beginner",
   "time": "30 minutes",  
@@ -14,8 +14,16 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Create and install a chart",
+        "title": "Step 3 - Create and install chart",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Upgrade and rollback release",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Fetch chart from registry",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -29,7 +37,6 @@
     "assets": {
       "host01": [
         {
-          "file": "foo.txt",
           "target": "~/"
         }
       ]
