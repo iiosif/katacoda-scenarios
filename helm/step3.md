@@ -30,7 +30,6 @@ Execute the following command to find out the service port exposed by k8s. This 
 
 `kubectl get --namespace default -o jsonpath='{.spec.ports[0].nodePort}{"\n"}' services nginx-nginx-web`{{execute}}
 
-In the upper side of the terminal you have one tab called `Display 80`. Click on this tab and a new web page will open.
-Under the section "Display a different port" enter the service port found with the previous command and press the button `Display port``. The ngix welcome page will appear. 
+In the upper side of the terminal (title bar) you have one `+` sign. Click on it and choose option `Select port to view on Host 1` from the popup menu. This will open a new tab in the browser where you can enter the port displayed by the previous command. After you enter the port click `Display Port`. The ngix welcome page will appear which confirms that the application is up and running in the k8s cluster. 
 
 Let's move to the next step and see how we can perform an upgrade and a rollback on the Helm release.

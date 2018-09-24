@@ -9,7 +9,7 @@ Let's search for a `redis` chart in this registry:
 
 Use the following command to fetch the `redis` chart and in the same time unpack it in the current folder:
 
-`helm fetch --untar nginx-web`{{execute}}
+`helm fetch --untar stable/redis`{{execute}}
 
 The command above has created a `redis` folder inside the current folder.
 
