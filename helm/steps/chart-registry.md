@@ -22,4 +22,4 @@ If you want to find out what else `helm repo` can do, execute the following comm
 
 `helm repo --help`{{execute}}
 
-Let's go to the real stuff now :-)
+Let's go to the next step and learn how we can fetch a chart from a registry.

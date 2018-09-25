@@ -7,23 +7,23 @@
     "steps": [
       {
         "title": "Step 1 - Install Helm Server",
-        "text": "step1.md"
+        "text": "install-helm.md"
       },
       {
-        "title": "Step 2 - Add charts registry",
-        "text": "step2.md"
+        "title": "Step 2 - Create and install chart",
+        "text": "create-chart.md"
       },
       {
-        "title": "Step 3 - Create and install chart",
-        "text": "step3.md"
+        "title": "Step 3 - Upgrade and rollback release",
+        "text": "upgrade-rollback.md"
       },
       {
-        "title": "Step 4 - Upgrade and rollback release",
-        "text": "step4.md"
-      },
+        "title": "Step 4 - Add charts registry",
+        "text": "chart-registry.md"
+      },      
       {
         "title": "Step 5 - Fetch chart from registry",
-        "text": "step5.md"
+        "text": "fetch-chart.md"
       }
     ],
     "intro": {
