@@ -22,4 +22,15 @@ If you want to find out what else `helm repo` can do, execute the following comm
 
 `helm repo --help`{{execute}}
 
-Let's go to the next step and learn how we can fetch a chart from a registry.
+Now that you have added `talend` registry to your Helm client let's fetch the chart `talend-infrastructure` from this registry. 
+Before we download the chart, let's look at some details of this chart. You can do this with the command:
+
+`helm search talend/talend-infrastructure`{{execute}}
+
+Use the following command to fetch the `talend-infrastructure` chart and in the same time unpack it in the current folder:
+
+`helm fetch --untar talend/talend-infrastructure`{{execute}}
+
+The command above has created a `talend-infrastructure` folder inside the current folder.
+
+In the next step you will learn about chart dependencies!

@@ -18,12 +18,16 @@
         "text": "steps/upgrade-rollback.md"
       },
       {
-        "title": "Step 4 - Add charts registry",
+        "title": "Step 4 - Add charts registry and fetch chart",
         "text": "steps/chart-registry.md"
       },      
       {
-        "title": "Step 5 - Fetch chart from registry",
-        "text": "steps/fetch-chart.md"
+        "title": "Step 5 - Chart dependencies",
+        "text": "steps/dependencies.md"
+      },      
+      {
+        "title": "Step 6 - Tags and conditions",
+        "text": "steps/tags-conditions.md"
       }
     ],
     "intro": {
