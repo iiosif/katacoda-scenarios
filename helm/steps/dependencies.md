@@ -2,7 +2,7 @@ In this step you will learn how to check for chart dependencies and how to updat
 
 ## Task
 
-Let's install now the chart `talend-infrastructure` which you have fetched and untared in the current folder.
+Let's install now the chart `talend-infrastructure` which you have fetched and untarred in the current folder.
 
 To check if the chart can be installed, simulate an install and display the output in the terminal. Use `infra` as Helm Release name.
 See if you can do this on your own before you look at the solution below. *But don't feel discouraged if you can't. :-)*
@@ -37,7 +37,7 @@ Simulate again the install and then proceed to install the chart in k8s. Do you 
 </p>
 </details>
 
-Unfortunately that install has failed because by default, the infrastructure chart doesn't create any objects. 
+Unfortunately that install has failed because, by default, the infrastructure chart doesn't create any objects. 
 You will have to explicitly set which infrastructure service you want to create. 
 This can be done through tags and/or conditions which we are going to tackle down in the next step. 
 
@@ -46,7 +46,7 @@ Try to list existig releases and delete the `infra` one.
 
 <details><summary>Solution</summary>
 <p>
-`helm ls infra`{{execute}}
+`helm ls`{{execute}}
 <br/>
 `helm delete --purge infra`{{execute}}
 <br/>
