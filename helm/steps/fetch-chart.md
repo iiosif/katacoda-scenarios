@@ -10,7 +10,7 @@ Use the following command to fetch the `talend-infrastructure` chart and in the 
 
 `helm fetch --untar talend/talend-infrastructure`{{execute}}
 
-The command above has created a `talend/talend-infrastructure` folder inside the current folder.
+The command above has created a `talend-infrastructure` folder inside the current folder.
 
 To check if the chart can be installed, simulate an install and display the output in the terminal. Use `infra` as Helm Release name.
 
