@@ -20,7 +20,7 @@ See if you can do this on your own before you check the solution below. *But don
 
 <details><summary>Solution</summary>
 <p>
-`helm install talend-infrastructure -name infra --debug --dry-run`{{execute}}
+`helm install talend-infrastructure --name infra --debug --dry-run`{{execute}}
 <br/>
 </p>
 </details>
@@ -41,7 +41,7 @@ You can now proceed to install the chart `talend-infrastructure` with the releas
 
 <details><summary>Solution</summary>
 <p>
-`helm install talend-infrastructure -name infra`{{execute}}
+`helm install talend-infrastructure --name infra`{{execute}}
 <br/>
 </p>
 </details>

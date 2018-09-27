@@ -12,7 +12,7 @@ Helm provides 2 commands which are recommended to be used before installing a ch
 
 Now you are ready to install the chart in k8s:
 
-`helm install nginx-web -name nginx`{{execute}}
+`helm install nginx-web --name nginx`{{execute}}
 
 List all Helm/k8s applications/releases with the following command:
 

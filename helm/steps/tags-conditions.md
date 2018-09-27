@@ -11,11 +11,11 @@ by specifying an new individual value with the `--set` parameter.
 
 Let's enable the `talend-redis` dependency by using the `--set` parameter:
 
-`helm install talend-infrastructure -name infra --set tags.talend-redis=true`{{execute}}
+`helm install talend-infrastructure --name infra --set tags.talend-redis=true`{{execute}}
 
 *Alternatively, you can use a new values file as follows:*
 
-*`helm install talend-infrastructure -name infra -f values-standalone.yaml`*
+*`helm install talend-infrastructure --name infra -f values-standalone.yaml`*
 
 Check the status of the release with `helm ls`. PostgreSQL is now up and running inside the k8s cluster.
 
