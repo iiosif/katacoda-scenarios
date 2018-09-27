@@ -10,17 +10,17 @@
         "text": "steps/install-helm.md"
       },
       {
-        "title": "Step 2 - Create and install chart",
-        "text": "steps/create-chart.md"
-      },
-      {
-        "title": "Step 3 - Upgrade and rollback release",
-        "text": "steps/upgrade-rollback.md"
-      },
-      {
-        "title": "Step 4 - Add charts registry and fetch chart",
+        "title": "Step 2 - Add charts registry and fetch chart",
         "text": "steps/chart-registry.md"
-      },      
+      },   
+      {
+        "title": "Step 3 - Install chart",
+        "text": "steps/install-chart.md"
+      },
+      {
+        "title": "Step 4 - Upgrade and rollback release",
+        "text": "steps/upgrade-rollback.md"
+      },   
       {
         "title": "Step 5 - Chart dependencies",
         "text": "steps/dependencies.md"

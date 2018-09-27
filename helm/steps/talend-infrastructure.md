@@ -22,13 +22,15 @@ If you want to find out what else `helm repo` can do, execute the following comm
 
 `helm repo --help`{{execute}}
 
-Now that you have added `talend` registry to your Helm client let's fetch the chart `nginx-web` from this registry. 
+Now that you have added `talend` registry to your Helm client let's fetch the chart `talend-infrastructure` from this registry. 
 Before we download the chart, let's look at some details of this chart. You can do this with the command:
 
-`helm search talend/nginx-web`{{execute}}
+`helm search talend/talend-infrastructure`{{execute}}
 
-Use the following command to fetch the `nginx-web` chart and in the same time unpack it in the current folder:
+Use the following command to fetch the `talend-infrastructure` chart and in the same time unpack it in the current folder:
 
-`helm fetch --untar talend/nginx-web`{{execute}}
+`helm fetch --untar talend/talend-infrastructure`{{execute}}
 
-The command above has created a `nginx-web` folder inside the current folder.
+The command above has created a `talend-infrastructure` folder inside the current folder.
+
+In the next step you will learn about chart dependencies!
