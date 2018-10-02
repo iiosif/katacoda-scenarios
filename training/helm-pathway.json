@@ -1,0 +1,11 @@
+{
+  "title": "Helm Workshop",
+  "description": "Learn basic Helm concepts and play with the helm command",
+  "courses": [{
+  "pathway_id": "sgandon",
+  "id": "helm",
+  "course_id": "helm",
+  "title": "Learning Helm basics",
+  "description": "Learn basic Helm concepts and play with the helm command"
+  }]
+}
