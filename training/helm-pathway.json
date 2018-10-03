@@ -2,7 +2,7 @@
   "title": "Helm Workshop",
   "description": "Learn basic Helm concepts and play with the helm command",
   "courses": [{
-  "pathway_id": "sgandon",
+  "pathway_id": "iigna",
   "id": "helm",
   "course_id": "helm",
   "title": "Learning Helm basics",
