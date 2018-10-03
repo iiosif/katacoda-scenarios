@@ -2,7 +2,7 @@
   "title": "Kubernetes Workshop",
   "description": "Learn basic Kubernetes concepts and play with kubectl command",
   "courses": [{
-  "pathway_id": "sgandon",
+  "pathway_id": "iigna",
   "id": "kubernetes",
   "course_id": "kubernetes",
   "title": "Learning Kubernetes basics",
