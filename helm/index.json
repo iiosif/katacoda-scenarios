@@ -45,11 +45,11 @@
     "assets": {
       "host01": [
         {
-          "file": "foo.txt",
+          "file": "rbac-config.yaml",
           "target": "~/"
         },
         {
-          "file": "rbac-config.yaml",
+          "file": "foo.txt",
           "target": "~/"
         }
       ]
