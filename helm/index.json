@@ -47,6 +47,10 @@
         {
           "file": "foo.txt",
           "target": "~/"
+        },
+        {
+          "file": "rbac-config.yaml",
+          "target": "~/"
         }
       ]
     }
