@@ -1,1 +1,1 @@
-ssh root@host01 "curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash; git clone https://github.com/iiosif/katacoda-scenarios.git; mv katacoda-scenarios/kubernetes/assets/ .; rm -rf katacoda-scenarios; kubectl create -f rbac-config.yaml;"
+ssh root@host01 "curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash; git clone https://github.com/iiosif/katacoda-scenarios.git; mv katacoda-scenarios/kubernetes/assets/ talend; rm -rf katacoda-scenarios; kubectl create -f talend/rbac-config.yaml;"
