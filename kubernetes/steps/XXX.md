@@ -60,7 +60,7 @@ first you need to make sure you cluster is running so please run
 
 then you need to get the data required for this workshop
 
-`git clone https://github.com/sgandon/katacoda-scenarios.git; mv katacoda-scenarios/kubernetes-helm/assets/ talend`{{execute}}
+`git clone https://github.com/iiosif/katacoda-scenarios.git; mv katacoda-scenarios/kubernetes-helm/assets/ talend`{{execute}}
 
 deploy the pod into kubernetes
 `cd talend/kubernetes/hello-world/
